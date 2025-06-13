@@ -1,0 +1,77 @@
+# Qt specific
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+Makefile*
+*build-*
+*.qm
+.qmake.stash
+
+# Qt Creator
+*.autosave
+
+# Android build artifacts
+*.so
+*.apk
+*.aab
+**/build/
+**/bin/
+**/gen/
+**/out/
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+**/local.properties
+
+# Gradle
+.gradle/
+**/gradle-wrapper.jar
+
+# IDE specific
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
